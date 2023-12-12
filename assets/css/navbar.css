@@ -1,0 +1,28 @@
+.navbar-default{
+    background-color: none;
+}
+
+.navbar-nav > li > a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+li.active{
+    background: none!important;
+}
+
+li > a:focus{
+    background: none !important;
+}
+
+li:hover > a{
+    background: none!important;
+    color: orange!important;
+}
+
+li > a:hover{
+    color: orange !important;
+    background: none !important;
+}
